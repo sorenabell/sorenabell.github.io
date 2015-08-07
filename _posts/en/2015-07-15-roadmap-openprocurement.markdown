@@ -10,21 +10,25 @@ This page contains the development roadmap for the Open Procurement toolkit. As 
 
 ####RECENTLY COMPLETED
 
-##Scaling
+## Scaling
 * Separate servers to host CDB and auctions.
 * Horizontal scaling and load distribution across CDB servers.
 * Backup server with copies of system data.
 
-####COMING SOON
+#### COMING SOON
 
-##The stand of automated testing
+## [The stand of automated testing](http://openprocurement.org/en/test-stand.html) 
 * Jenkins-based Continuous Integration system for eMalls (commercial electronic procurement platforms) testing. 
 * Checking the current state of every eMall (implementation level of different features) and functionality regression if one occurs.
 
-##Logging system
+[Read more detailed specifications](http://openprocurement.org/en/test-stand.html) 
+
+## [Logging system](http://openprocurement.org/en/log-server.html)
 * Online logs using syslog protocol, JSON.
 * Logs from CDB, auctions, eMalls, CDB sandbox.
 * Logs archivation for audit needs.
+
+[Read more detailed specifications](http://openprocurement.org/en/log-server.html)
 
 ####PLANNED
 

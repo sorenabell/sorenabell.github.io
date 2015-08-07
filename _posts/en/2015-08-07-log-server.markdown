@@ -28,12 +28,13 @@ categories: en
 ### Types of logs
 
 **Public log** - excludes the following types of information:
+
 * that identifies the platform that conducts transaction;
 * that can identify tender for which the price offer was posted in the system.
 
 **Detailed auction log** - is published after the end of the auction.
 
-**Log about purchasing platform request results**. Central DB logs all requests of purchasing platform. Log messages are collected and sent to the platform to provide data on request processing. Only purchasing platform has access to its own request logs.
+**Log about purchasing platform request results**. Central DB logs all requests from purchasing platform. Log messages are collected and sent to the platform to provide data on request processing. Only purchasing platform has access to its own request logs.
 
 **Administrative edits log** - contains information about all cases of administrative edits.
 
